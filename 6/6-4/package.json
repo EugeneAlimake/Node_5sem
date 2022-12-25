@@ -1,0 +1,14 @@
+{
+  "name": "nev6-4",
+  "version": "1.0.1",
+  "description": "6-4",
+  "main": "m06_03.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "keywords": [
+    "hi"
+  ]
+}

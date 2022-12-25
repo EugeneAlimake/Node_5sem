@@ -1,0 +1,10 @@
+{
+  "name": "6",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "nev6-4": "^1.0.1",
+    "nodemailer": "^6.7.8",
+    "sendmail": "^1.6.1"
+  }
+}
