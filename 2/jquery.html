@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <script src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+    <script>
+            $.ajax
+           (
+                {
+                    url: "/api/name",
+                    success: function(data) { document.body.innerHTML += data; }
+                }
+            );
+    </script>
+    <body>
+    </body>
+</html>

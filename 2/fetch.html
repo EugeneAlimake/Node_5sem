@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="divResult">
+        </div>
+        <script type='text/javascript'>
+                fetch('/api/name').then(function(response)
+                {
+                    return response.text();
+                }).then(function(data)
+                {
+                    document.body.innerHTML += data;
+                });
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="divResult">
+        </div>
+        <script type='text/javascript'>    
+
+                let req = new XMLHttpRequest();
+                req.open('GET', 'http://localhost:5000/api/name', true);
+                req.onreadystatechange = () =>
+                {
+                    if(req.readyState == 4 && req.status == 200)
+                    {
+                        document.getElementById('divResult').innerHTML += req.responseText;
+                    }
+                }
+                req.send();
+
+        </script>
+    </body>
+</html>
